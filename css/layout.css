@@ -1,17 +1,13 @@
-/* =========================
-   LAYOUT.CSS
-========================= */
+/* LAYOUT.CSS */
 
-/* RESET */
 
+ /* BODY */
 body {
     margin: 0;
     padding: 0;
 }
 
-/* =========================
-   HEADER 
-========================= */
+/* HEADER  */
 
 header {
     background-color: #00674fd7;
@@ -21,9 +17,7 @@ header {
 
 
 
-/* =========================
-   MAIN
-========================= */
+/* MAIN */
 
 main {
     max-width: 1200px;
@@ -31,9 +25,7 @@ main {
     padding: 40px;
 }
 
-/* =========================
-   GRID SYSTEM
-========================= */
+/* GRID */
 
 .grid_2-1 {
     display: grid;
@@ -73,9 +65,7 @@ main {
     gap: 40px;
 }
 
-/* =========================
-   FLEX
-========================= */
+/* FLEX */
 
 .flex_col {
     display: flex;
@@ -83,9 +73,7 @@ main {
     gap: 20px;
 }
 
-/* =========================
-   COMPONENT SECTIONS
-========================= */
+/* COMPONENT SECTIONS */
 
 .component-section {
     margin-bottom: 80px;
@@ -95,9 +83,9 @@ main {
     margin-bottom: 0;
 }
 
-/* =========================
+/* 
    IMAGES
-========================= */
+ */
 
 figure {
     margin: 0;
@@ -110,9 +98,9 @@ img {
     display: block;
 }
 
-/* =========================
+/* 
    DEFINITION LIST
-========================= */
+ */
 
 dl.grid_1-1 {
     display: grid;
@@ -133,9 +121,9 @@ dl.grid_1-1 dd {
     margin: 0;
 }
 
-/* =========================
+/* 
    GALLERY
-========================= */
+ */
 
 .gallery-grid {
     display: grid;
@@ -159,9 +147,9 @@ dl.grid_1-1 dd {
 .g5 { grid-column: 1 / 2; }
 .g6 { grid-column: 2 / 5; }
 
-/* =========================
+/* 
    HEADINGS
-========================= */
+ */
 
 h1 {
     margin-bottom: 40px;
@@ -171,9 +159,9 @@ h2 {
     margin-top: 0;
 }
 
-/* =========================
+/* 
    MOBILE
-========================= */
+ */
 
 @media (max-width: 768px) {
 
