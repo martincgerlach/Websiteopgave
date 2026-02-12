@@ -21,7 +21,7 @@ body {
 
 h1, h2, h3 {
     font-family: 'Inter', sans-serif;
-    color: #2563eb;
+    color: #1F3A3A;
 }
 
 h1 {
@@ -37,7 +37,7 @@ h2 {
 h3 {
     font-size: 1.5rem;
     margin: 25px 0 15px;
-    color: #0ea5e9;
+    color: #1F3A3A;
 }
 
 p {
@@ -52,7 +52,7 @@ img {
     
 }
 .images .old-image img {
-    margin-top: 300px; /* rykkes længere ned på desktop */
+    margin-top: 280px; /* rykkes længere ned på desktop */
 }
 figure {
     margin: 20px 0;
@@ -88,7 +88,7 @@ li {
 }
 
 a {
-    color: #ffffff;
+    color:#ffffff;
     text-decoration: none;
 }
 
@@ -111,7 +111,7 @@ dl {
 
 dt {
     font-weight: bold;
-    color: #2563eb;
+    color: #1F3A3A;
     margin-bottom: 5px;
 }
 
@@ -124,7 +124,7 @@ dd {
 .cta-btn {
     display: inline-block;
     padding: 12px 10px;
-    background-color: #1e90ff;
+    background-color: #00674fd7;
     color: white;
     font-weight: 700;
     font-family: Arial, sans-serif;
