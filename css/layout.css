@@ -187,13 +187,29 @@ h2 {
     .grid_1-1-1,
     .gallery-grid,
     dl.grid_1-1 {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr, 1fr;
     }
 
     .gallery-grid img {
         height: auto;
     }
  .gallery-grid {
-  grid-template-columns: 1fr,1fr
+        grid-template-columns: 1fr;
+        grid-auto-rows: auto;
+    }
+
+    .gallery-grid img {
+        height: auto;
+    }
+    .g1,
+    .g2,
+    .g3,
+    .g4,
+    .g5,
+    .g6 {
+        grid-column: auto;
+        grid-row: auto;
+    }
+}
 
 }
