@@ -88,9 +88,7 @@ main {
 }
 
 
-/* 
-   IMAGES
- */
+/* IMAGES */
 
 figure {
     margin: 0;
@@ -103,9 +101,7 @@ img {
     display: block;
 }
 
-/* 
-   DEFINITION LIST
- */
+/*  DEFINITION LIST */
 
 dl.grid_1-1 {
     display: grid;
@@ -126,9 +122,7 @@ dl.grid_1-1 dd {
     margin: 0;
 }
 
-/* 
-   GALLERY
- */
+/* GALLERY */
 
 .gallery-grid {
     display: grid;
@@ -189,7 +183,7 @@ h2 {
         grid-template-columns: 1fr;
     }
 
-    /* Gallery gets its OWN rules */
+    /* Gallery rules */
 
     .gallery-grid {
         
